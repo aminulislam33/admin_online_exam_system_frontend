@@ -1,0 +1,12 @@
+.admin-dashboard .card {
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .admin-dashboard .card-title {
+    color: #007bff;
+  }
+  
+  .admin-dashboard .btn-lg {
+    width: 200px;
+  }  

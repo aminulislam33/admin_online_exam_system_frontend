@@ -1,0 +1,69 @@
+/* ManageExams Page Styling */
+div {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Page Title Styling */
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: #333;
+  }
+  
+  /* Button Styling */
+  button {
+    padding: 0.8rem 1.2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Exam Cards */
+  div > div {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  div > div p {
+    margin: 0.5rem 0;
+  }
+  
+  /* Error/Message Styling */
+  p {
+    font-size: 1.1rem;
+    color: #333;
+    margin-top: 0.5rem;
+  }
+  
+  /* Exam details styling */
+  strong {
+    color: #007bff;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #333;
+  }
+  

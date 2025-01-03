@@ -1,0 +1,112 @@
+/* Page container */
+div {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Title Styling */
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: #333;
+  }
+  
+  /* Form styling */
+  form {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  /* Form input styling */
+  input {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  
+  /* Submit button */
+  button[type="submit"] {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Message styling */
+  p {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 0.5rem;
+  }
+  
+  /* Styling for the question list */
+  .question-card {
+    background-color: #f1f1f1;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .question-card p {
+    margin: 0.5rem 0;
+  }
+  
+  .question-card button {
+    background-color: #28a745;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .question-card button:hover {
+    background-color: #218838;
+  }
+  
+  /* Options list styling */
+  ul {
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
+  
+  strong {
+    color: #333;
+  }
+  
+  /* Optional image styling */
+  .question-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-top: 1rem;
+  }
+  
