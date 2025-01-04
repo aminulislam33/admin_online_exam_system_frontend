@@ -1,14 +1,10 @@
 import { useNavigate } from "react-router-dom";
-import { Helmet } from "react-helmet";
 
 const AdminDashboard = () => {
   const navigate = useNavigate();
 
   return (
     <div className="admin-dashboard">
-      <Helmet>
-        <title>Admin Dashboard - AptiCrack</title>
-      </Helmet>
       <nav className="admin-navbar">
         <h2>Admin Dashboard</h2>
         <button onClick={() => navigate("/admin/manage-questions")}>

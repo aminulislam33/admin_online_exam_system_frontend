@@ -48,11 +48,6 @@ function Navbar() {
             <li>
               <button onClick={handleLogout}>Logout</button>
             </li>
-            <li>
-              <button onClick={() => navigate("/")}>
-                Dashboard
-              </button>
-            </li>
           </>
         )}
       </ul>

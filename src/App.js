@@ -10,6 +10,7 @@ import CreateExam from "./pages/CreateExams";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Login from "./pages/Login";
+import PageTitleUpdater from "./services/PageTitleUpdater";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <QuestionProvider>
         <Router>
             <Navbar />
+            <PageTitleUpdater/>
               <Routes>
                 <Route path="/" element={<AdminDashboard />} />
                 <Route path="/admin/login" element={<Login />} />

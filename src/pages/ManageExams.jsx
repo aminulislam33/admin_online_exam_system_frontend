@@ -2,6 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../context/AuthContext";
 import api from "../services/AxiosInstance";
+import { Helmet } from "react-helmet";
 
 function ManageExams() {
     const navigate = useNavigate();
@@ -23,7 +24,7 @@ function ManageExams() {
                 const updatedExams = await Promise.all(
                     examsData.map(async (exam) => {
                         try {
-                            const userRes = await api.post("/profile", {id: examsData.createdBy}, {
+                            const userRes = await api.post("/profile", { id: examsData.createdBy }, {
                                 headers: {
                                     Authorization: `Bearer ${token}`,
                                 },
@@ -48,6 +49,9 @@ function ManageExams() {
 
     return (
         <div>
+            <Helmet>
+                <title>Manage Exams</title>
+            </Helmet>
             <h1>Manage Exams</h1>
             <div>
                 <button onClick={() => navigate("/admin/manage-exams/add")}>Add Exam</button>
